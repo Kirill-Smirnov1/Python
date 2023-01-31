@@ -8,7 +8,7 @@
 #100
 #out
 #1
-n = int(input("Введите число \n"))
+n = int(input("Введите число "))
 summa = 0
 while n > 0:
     x = n % 10
