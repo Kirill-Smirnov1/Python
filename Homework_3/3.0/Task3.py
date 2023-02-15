@@ -21,11 +21,12 @@
 # ноутбук
 # Вывод:
 # 12
-ang_dict = {"AEIOULNSTRАВЕИНОРСТ": 1, "DGДКЛМПУ": 2,
+
+list = {"AEIOULNSTRАВЕИНОРСТ": 1, "DGДКЛМПУ": 2,
             "BCMPБГЁЬЯ": 3, "FHVWYЙЫ": 4, "KЖЗХЦЧ": 5,
             "JXШЭЮ": 8, "QZФЩЪ": 10}
 
 count = 0
 word = input()
 
-print(sum([i[1] for i in ang_dict.items() for j in word if j.upper() in i[0]]))
+print(sum([i[1] for i in list.items() for j in word if j.upper() in i[0]]))
