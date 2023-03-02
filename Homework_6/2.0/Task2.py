@@ -8,7 +8,7 @@
 
 
 nums_list = [int(i) for i in input().split()]
-num_min = int(input())
-num_max = int(input())
+min = int(input())
+max = int(input())
 
-print([ind for ind, val in enumerate(nums_list) if num_min <= val <= num_max])
+print([ind for ind, val in enumerate(nums_list) if min <= val <= max])
